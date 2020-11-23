@@ -1,0 +1,42 @@
+ul{
+    list-style-type: none;
+    border:1px solid dimgray;
+    background-color: gray;
+    overflow: hidden;
+}
+li{
+    float:left;
+}
+.nav-right{
+    float:right;
+}
+li a{display: block;
+    color: greenyellow;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+a{
+    text-decoration: none;
+    color: khaki;
+}
+li a:honer{
+    background-color: lightseagreen;
+    color: linen;
+}
+li a.active{
+    background-color: mediumblue;
+    color: mintcream;
+}
+div{
+    border:3px solid;
+}
+table{
+    widows: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background-color: olive;
+    color: paleturquoise;
+}
